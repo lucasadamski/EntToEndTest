@@ -1,0 +1,6 @@
+@EndToEndTest_HostAddress = http://localhost:5158
+
+GET {{EndToEndTest_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
